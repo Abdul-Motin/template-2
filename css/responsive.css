@@ -1,0 +1,183 @@
+/* Extra Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) and (max-width: 575px) {
+    /* menu part start  */
+    .navbar-nav {
+        display: inherit;
+        text-align: center;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(8, 241, 191, 0.55);
+        border-color: rgba(7, 250, 189, 0.411);
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(8, 241, 191, 0.55)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    /* menu part end  */
+    /* progress part start  */
+    .progress_footer {
+        padding: 40px 14px 0px;
+    }
+    /* progress part end  */
+    /* portfolio part start  */
+    .protfolio_head p {
+        padding: 10px 14px 30px;
+    }
+    /* portfolio part start  */
+    /* web link part start  */
+    .web_link_content p {
+        padding: 10px 14px 30px;
+    }
+    /* web link part end  */
+    /* contact part start  */
+    .contact_content p {
+        padding: 10px 14px 30px;
+    }
+   .input_email, 
+   .input_name {
+        width: 46%;
+    }
+    .input_name {
+        margin-right: 12px;
+    }
+    /* contact part end  */
+    /* footer part start  */
+    .ft_logo {
+        text-align: center;
+    }
+    .ft_menu {
+        text-align: center;
+        padding: 18px 0px;
+    }
+    .ft_icon {
+        float: inherit;
+        text-align: center;
+    }
+    /* footer part end  */
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+      /* menu part start  */
+    .navbar-nav {
+        display: inherit;
+        text-align: center;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(8, 241, 191, 0.55);
+        border-color: rgba(7, 250, 189, 0.411);
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(8, 241, 191, 0.55)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    /* menu part end  */
+    /* progress part start  */
+    .progress_footer {
+        padding: 40px 15px 0px;
+    }
+    /* progress part end  */
+    /* portfolio part start  */
+    .protfolio_head p {
+        padding: 10px 15px 30px;
+    }
+    /* portfolio part end  */
+    /* web link part start  */
+    .web_link_content p {
+        padding: 10px 15px 30px;
+    }
+    /* web link part end  */
+    /* contact part start  */
+    .contact_content p {
+        padding: 10px 15px 30px;
+    }
+    .input_email, 
+   .input_name {
+        width: 46%;
+    }
+    .input_name {
+        margin-right: 34px;
+    }
+    /* contact part end  */
+    /* footer part start  */
+    .ft_menu a {
+        margin: 14px 1px;
+    }
+    .ft_icon a {
+        margin: 0px 3px;
+    }
+    /* footer part end  */
+}
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+     /* menu part start  */
+     .navbar-nav {
+        display: inherit;
+        text-align: center;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(8, 241, 191, 0.55);
+        border-color: rgba(7, 250, 189, 0.411);
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(8, 241, 191, 0.55)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    /* menu part end  */
+    /* service part start  */
+    .progress_footer {
+        padding-top: 40px;
+        color: #fff;
+        font-size: 18px;
+        padding: 49px 66px 0px;
+    }
+    .protfolio_head p {
+        color: rgb(212, 212, 212);
+        font-size: 20px;
+        padding: 29px 68px 30px;
+    }
+    .testimonial_head h3 {
+        font-size: 33px;
+        font-weight: 700;
+        color: #fff;
+        font-family: 'Rubik', sans-serif;
+    }
+    .web_link_content p {
+        color: rgb(212, 212, 212);
+        font-size: 22px;
+        padding: 10px 123px 30px;
+    }
+    /* service part end  */
+    .input_email, .input_name {
+        width: 46%;
+        background: none;
+        border: 0px;
+        border-bottom: 2px solid #fff;
+        margin: 0;
+        color: #fff;
+        height: 80px;
+    }
+    .input_name{
+        margin-right: 45px;
+    }
+    /* footer part start  */
+    .ft_menu {
+        margin-top: 20px;
+    }
+    /* footer part end  */
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* contact part start   */
+  .input_name {
+	margin-right: 33px;
+}
+  /* contact part end   */
+  /* footer part start  */
+  .ft_menu {
+    margin-top: 15px;
+}
+/* footer part end  */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
